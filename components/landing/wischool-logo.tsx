@@ -23,18 +23,14 @@ export function WischoolLogo({
       )}
       style={{ fontSize: "32.8px", lineHeight: "100%" }}
     >
-      {/* WiSch */}
       <span className={textColor}>WiSch</span>
 
-      {/* oo com pontos acima */}
       <span className="relative inline-block">
-        {/* letras o o */}
         <span className={textColor}>oo</span>
 
-        {/* pontos verdes */}
-        <span className="absolute left-0 top-[-1px] flex w-full justify-between px-[5px]">
-          <span className={cn("h-[6px] w-[6px] rounded-full", dotColor)} />
-          <span className={cn("h-[6px] w-[6px] rounded-full", dotColor)} />
+        <span className="absolute left-0 -top-px flex w-full justify-between px-1.25">
+          <span className={cn("h-1.5 w-1.5 rounded-full", dotColor)} />
+          <span className={cn("h-1.5 w-1.5 rounded-full", dotColor)} />
         </span>
       </span>
 

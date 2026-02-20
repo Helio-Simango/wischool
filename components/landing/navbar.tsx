@@ -25,7 +25,7 @@ export function Navbar() {
     >
       {/* Desktop Navbar */}
       <nav
-        className="mx-auto hidden h-[100px] max-w-[1440px] items-center justify-between px-6 lg:flex lg:px-[100px]"
+        className="mx-auto hidden h-25 max-w-360 items-center justify-between px-6 lg:flex lg:px-25"
         aria-label="Main navigation"
       >
         {/* Logo */}
@@ -104,7 +104,7 @@ export function Navbar() {
 
       {/* Mobile Navbar */}
       <nav
-        className="flex h-[60px] items-center justify-between px-4 lg:hidden"
+        className="flex h-15 items-center justify-between px-4 lg:hidden"
         aria-label="Mobile navigation"
       >
         {/* Hamburger / Close */}
@@ -139,7 +139,7 @@ export function Navbar() {
       <div
         className={cn(
           "overflow-hidden transition-all duration-300 ease-in-out lg:hidden",
-          mobileOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          mobileOpen ? "max-h-125 opacity-100" : "max-h-0 opacity-0"
         )}
       >
         <div className="border-t border-border bg-background px-4 pb-6 pt-4">

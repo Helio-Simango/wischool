@@ -117,7 +117,7 @@ export function SkillCoursesSection() {
       className="py-10 md:py-16"
       aria-labelledby="skill-courses-heading"
     >
-      <div className="mx-auto max-w-[1240px] px-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-310 px-4 md:px-6 lg:px-8">
         {/* Header */}
         <div className="flex items-center justify-between">
           <h2

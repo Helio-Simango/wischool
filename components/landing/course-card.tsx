@@ -12,7 +12,7 @@ export function CourseCard({ course }: CourseCardProps) {
   return (
     <article className="group cursor-pointer overflow-hidden rounded-2xl border border-border bg-card transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
       {/* Image */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden">
+      <div className="relative aspect-4/3 w-full overflow-hidden">
         <Image
           src={course.image}
           alt={course.title}

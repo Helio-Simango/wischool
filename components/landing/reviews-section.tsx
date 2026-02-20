@@ -70,7 +70,7 @@ export function ReviewsSection() {
       className="py-10 md:py-16"
       aria-labelledby="reviews-heading"
     >
-      <div className="mx-auto max-w-[1240px] px-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-310 px-4 md:px-6 lg:px-8">
         {/* Section Label - centered */}
         <p className="text-center text-sm font-semibold text-foreground">
           Reviews
@@ -79,7 +79,7 @@ export function ReviewsSection() {
         {/* Content */}
         <div className="mt-6 flex flex-col gap-8 lg:flex-row lg:items-start lg:gap-16">
           {/* Left - Title + Nav */}
-          <div className="flex-shrink-0 lg:w-[30%]">
+          <div className="shrink-0 lg:w-[30%]">
             <h2
               id="reviews-heading"
               className="font-heading text-2xl font-bold text-foreground text-balance md:text-3xl lg:text-4xl"

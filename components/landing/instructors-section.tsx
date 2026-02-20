@@ -32,7 +32,7 @@ export function InstructorsSection() {
       className="py-10 md:py-16"
       aria-labelledby="instructors-heading"
     >
-      <div className="mx-auto max-w-[1240px] px-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-310 px-4 md:px-6 lg:px-8">
         {/* Section Title */}
         <h2
           id="instructors-heading"
@@ -46,11 +46,11 @@ export function InstructorsSection() {
           {INSTRUCTORS.map((instructor) => (
             <article
               key={instructor.id}
-              className="flex w-[calc(50%-12px)] flex-col items-center rounded-[5.99px] bg-card px-6 py-8 shadow-[0px_2px_12px_rgba(0,0,0,0.08)] lg:w-[390px]"
+              className="flex w-[calc(50%-12px)] flex-col items-center rounded-[5.99px] bg-card px-6 py-8 shadow-[0px_2px_12px_rgba(0,0,0,0.08)] lg:w-97.5"
               style={{ minHeight: 371 }}
             >
               {/* Avatar */}
-              <div className="h-[114px] w-[114px] overflow-hidden rounded-full">
+              <div className="h-28.5 w-28.5 overflow-hidden rounded-full">
                 <Image
                   src={instructor.avatar}
                   alt={instructor.name}

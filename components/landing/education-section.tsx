@@ -26,7 +26,7 @@ export function EducationSection() {
       className="py-10 md:py-16"
       aria-labelledby="education-heading"
     >
-      <div className="mx-auto max-w-[1240px] px-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-310 px-4 md:px-6 lg:px-8">
         {/* Section Eyebrow */}
         <p className="font-poppins text-[32px] font-semibold leading-[100%] text-[#333333]">
           We Bring The Good Education To Life
@@ -35,8 +35,8 @@ export function EducationSection() {
         {/* Content Grid */}
         <div className="mt-8 flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-16">
           {/* Left - Image with floating card */}
-          <div className="relative flex-shrink-0 lg:w-[45%]">
-            <div className="relative w-full max-w-[400px]">
+          <div className="relative shrink-0 lg:w-[45%]">
+            <div className="relative w-full max-w-100">
               <div className="overflow-hidden rounded-2xl">
                 <Image
                   src="/images/education-woman.png"

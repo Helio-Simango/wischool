@@ -9,9 +9,9 @@ export function HeroSection() {
       className="relative pt-28 md:pt-32"
       aria-labelledby="hero-heading"
     >
-      <div className="mx-auto max-w-[1240px] px-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-310 px-4 md:px-6 lg:px-8">
         {/* Hero Container with rounded corners and gradient background */}
-        <div className="relative overflow-hidden rounded-[50px] bg-gradient-to-br from-[#E1FFEE] via-[#E4FFFF]/30 to-[#DDFFFF]/50 px-8 py-12 md:px-12 md:py-16 lg:min-h-[605px] lg:px-16 lg:py-20">
+        <div className="relative overflow-hidden rounded-3xl bg-linear-to-br from-[#E1FFEE] via-[#E4FFFF]/30 to-[#DDFFFF]/50 px-8 py-12 md:px-12 md:py-16 lg:min-h-151.25 lg:px-16 lg:py-20">
           {/* Decorative blob top-left */}
           <div
             className="pointer-events-none absolute -top-20 -left-20 h-64 w-64 rounded-full bg-[#E1FFEE] opacity-60 blur-3xl"
@@ -52,7 +52,7 @@ export function HeroSection() {
             {/* Right Content - Image + Floating Cards */}
             <div className="relative flex flex-1 items-center justify-center lg:justify-end">
               {/* Student Image */}
-              <div className="relative w-full max-w-[420px]">
+              <div className="relative w-full max-w-105">
                 <div className="overflow-hidden rounded-2xl">
                   <Image
                     src="/images/hero-student.png"

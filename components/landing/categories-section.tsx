@@ -88,7 +88,7 @@ export function CategoriesSection() {
 
   return (
     <section className="py-10 md:py-16" aria-labelledby="categories-heading">
-      <div className="mx-auto max-w-[1240px] px-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-310 px-4 md:px-6 lg:px-8">
         {/* Header */}
         <div className="flex items-center justify-between">
           <h2
@@ -114,7 +114,7 @@ export function CategoriesSection() {
                 key={category.name}
                 className="w-[calc((100%-24px)/3)] min-w-[calc((100%-24px)/3)] shrink-0 cursor-pointer overflow-hidden rounded-2xl"
               >
-                <div className="relative aspect-[3/4] w-full overflow-hidden">
+                <div className="relative aspect-3/4 w-full overflow-hidden">
                   <Image
                     src={category.image}
                     alt={`${category.name} course category`}
@@ -123,7 +123,7 @@ export function CategoriesSection() {
                     className="object-cover"
                   />
                   <div
-                    className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"
+                    className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent"
                     aria-hidden="true"
                   />
                   <div className="absolute bottom-0 left-0 right-0 p-3">
@@ -180,7 +180,7 @@ export function CategoriesSection() {
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
                     {/* Image */}
-                    <div className="relative aspect-[3/4] w-full overflow-hidden">
+                    <div className="relative aspect-3/4 w-full overflow-hidden">
                       <Image
                         src={category.image}
                         alt={`${category.name} course category`}
@@ -194,13 +194,13 @@ export function CategoriesSection() {
 
                       {/* Permanent dark gradient at bottom */}
                       <div
-                        className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"
+                        className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent"
                         aria-hidden="true"
                       />
 
                       {/* Hover overlay - fades in */}
                       <div
-                        className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/10 transition-opacity duration-500 ease-in-out"
+                        className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-black/10 transition-opacity duration-500 ease-in-out"
                         style={{ opacity: isHovered ? 1 : 0 }}
                         aria-hidden="true"
                       />

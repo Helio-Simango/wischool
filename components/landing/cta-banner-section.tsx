@@ -63,13 +63,13 @@ export function CtaBannerSection() {
         </div>
 
         {/* Desktop Layout */}
-        <div className="relative z-10 hidden lg:flex lg:items-center lg:min-h-[604px] px-6 lg:px-0">
+        <div className="relative z-10 hidden lg:flex lg:items-center lg:min-h-151 px-6 lg:px-0">
           {/* Featured Student Image - positioned on the left */}
           <div
-            className="relative flex-shrink-0 ml-[98px]"
+            className="relative shrink-0 ml-24.5"
             style={{ marginTop: '15px' }}
           >
-            <div className="relative h-[517px] w-[513px] overflow-hidden rounded-[20px]">
+            <div className="relative h-129.25 w-128.25 overflow-hidden rounded-2xl">
               <Image
                 src="/images/cta-featured-student.png"
                 alt="A student with headphones studying on a laptop"
@@ -78,14 +78,14 @@ export function CtaBannerSection() {
               />
               {/* Dark overlay on the featured image */}
               <div
-                className="absolute inset-0 bg-[#00000033] rounded-[20px]"
+                className="absolute inset-0 bg-[#00000033] rounded-2xl"
                 aria-hidden="true"
               />
             </div>
           </div>
 
           {/* Content - right side */}
-          <div className="relative z-10 flex flex-col px-12 py-16 ml-8 max-w-[560px]">
+          <div className="relative z-10 flex flex-col px-12 py-16 ml-8 max-w-140">
             <h2
               id="cta-banner-heading"
               className="font-poppins text-[40px] font-bold italic leading-[1.2] text-background text-balance"

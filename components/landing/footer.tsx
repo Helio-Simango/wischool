@@ -56,11 +56,11 @@ export function Footer() {
     <footer className="bg-[#0a0a0a] text-white" role="contentinfo">
       {/* ===== DESKTOP LAYOUT ===== */}
       <div className="hidden lg:block">
-        <div className="mx-auto max-w-[1240px] px-4 pt-16 pb-12 md:px-6 lg:px-8">
+        <div className="mx-auto max-w-310 px-4 pt-16 pb-12 md:px-6 lg:px-8">
           {/* Top Row: Brand + Nav Columns */}
           <div className="flex gap-12">
             {/* Brand Column */}
-            <div className="w-[240px] shrink-0">
+            <div className="w-60 shrink-0">
               {/* WiSchool text */}
               <FooterLogo />
 
@@ -92,7 +92,7 @@ export function Footer() {
                     <li key={link.label}>
                       <a
                         href={link.href}
-                        className="font-sans text-[14px] capitalize leading-[25px] text-white/80 transition-colors hover:text-white"
+                        className="font-sans text-[14px] capitalize leading-6.25 text-white/80 transition-colors hover:text-white"
                       >
                         {link.label}
                       </a>
@@ -110,7 +110,7 @@ export function Footer() {
             </h3>
 
             <form
-              className="mt-6 flex w-full max-w-[520px] items-center overflow-hidden rounded-lg bg-white"
+              className="mt-6 flex w-full max-w-130 items-center overflow-hidden rounded-lg bg-white"
               onSubmit={(e) => e.preventDefault()}
             >
               <input
@@ -132,7 +132,7 @@ export function Footer() {
 
       {/* ===== MOBILE/TABLET LAYOUT ===== */}
       <div className="block lg:hidden">
-        <div className="mx-auto max-w-[1240px] px-6 pt-12 pb-10">
+        <div className="mx-auto max-w-310 px-6 pt-12 pb-10">
           {/* Subscribe First on Mobile */}
           <div className="mb-10">
             <h3 className="font-poppins text-[20px] font-semibold leading-[100%] text-white sm:text-[24px]">
@@ -166,7 +166,7 @@ export function Footer() {
                   <li key={link.label}>
                     <a
                       href={link.href}
-                      className="font-sans text-[14px] capitalize leading-[25px] text-white/80 transition-colors hover:text-white"
+                      className="font-sans text-[14px] capitalize leading-6.25 text-white/80 transition-colors hover:text-white"
                     >
                       {link.label}
                     </a>
